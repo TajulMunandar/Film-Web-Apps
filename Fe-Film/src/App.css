@@ -1,0 +1,87 @@
+#root {
+  background-color: #f5efe7;
+}
+
+.btn-primary {
+  background-color: #3e5879 !important;
+  border-color: #3e5879 !important;
+}
+
+.btn-primary:hover {
+  background-color: #213555 !important;
+  border-color: #213555 !important;
+}
+
+.navbar {
+  background-color: #213555;
+}
+
+.navbar-brand {
+  color: #f5efe7 !important;
+}
+
+.navbar-item {
+  color: #f5efe7 !important;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border: 0.25em solid transparent;
+  border-top: 0.25em solid #007bff; /* Warna spinner */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.card-container {
+  background-color: #f5efe7;
+  border: #f5efe7;
+}
+
+ul.pagination li.page-item.active .page-link {
+  color: #f5efe7 !important;
+  background-color: #3e5879 !important;
+  border-color: #3e5879 !important;
+}
+
+.page-item .page-link:hover {
+  background-color: #3e5879; /* Warna latar saat hover */
+  color: #f5efe7; /* Warna teks saat hover */
+  border-color: #3e5879; /* Warna border saat hover */
+  cursor: pointer;
+}
+
+.page-item .page-link {
+  color: #3e5879; /* Warna teks saat hover */
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.carousel-inner img {
+  border-radius: 8px;
+}
+
+/* Animasi untuk spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Posisikan spinner di tengah halaman */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Pastikan spinner ada di tengah layar */
+}
